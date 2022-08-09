@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4030892880612155635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4030892880612155637}
+  - component: {fileID: 4030892880612155634}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4030892880612155637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030892880612155635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4030892880612155634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030892880612155635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfdd24055489fd4781a4e28c7631abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 1144319951064019018, guid: 9bf18553b1123834eb7cd15f2f782efb, type: 3}
+  - {fileID: 4277424036435351585, guid: 4c4c0fd3bb76b98479cf06ed7c86e89b, type: 3}
+  - {fileID: 1144319951064019018, guid: 4de821decdb70b146ab04f28a090a63d, type: 3}
+  - {fileID: 1144319951064019018, guid: 1da181a11fc41b8489344cd0f2131161, type: 3}
+  - {fileID: 1144319951064019018, guid: 663945edfd883ba499a4ca562d58a9d6, type: 3}
+  floorTiles: []
+  playerLevel: 0
+  completedDungeonLevel: 0
+  baseQuality: 0
+  finalQuality: 0
+  dungeonRank: 0
+  depth: 0
+  sMonsterRank: 0
+  boss: 0
+  dungeonLevel: 0
+  dungeonLevelVariation: 0
+  dungeonLocation: 0
+  dungeonLocaleRank: 0
+  columns: 0
+  rows: 0
+  tileToGenerate: 0
+  maxTunnels: 0
+  maxLength: 0
+  randomLength: 0
+  initialSeed: 0
+  seed: 
+  seedInputField: {fileID: 0}

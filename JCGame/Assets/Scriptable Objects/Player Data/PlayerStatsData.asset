@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6e0f0fff51a95408e0bf748d0f55ad, type: 3}
+  m_Name: PlayerStatsData
+  m_EditorClassIdentifier: 
+  characterGameObject: {fileID: 6098401751956747071, guid: 1a44543b992031740b678a6193b89dbd, type: 3}
+  charName: Datengu
+  level: 1
+  maxHealth: 100
+  currHealth: 100
+  maxMana: 100
+  currMana: 100
+  strength: 10
+  agility: 10
+  resistance: 10
+  position:
+  - 0.9882267
+  - 1
+  - 0.5622349
+  abilities:
+  - 
+  - 
+  - 
